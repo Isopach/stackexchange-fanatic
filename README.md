@@ -21,7 +21,7 @@ NodeJS, automated log in for Stack Overflow. [The *Fanatic* badge][0] is just be
 	> 0 5,22 * * * wget -O - -q your-heroku-app.herokuapp.com # every day at 5h/22h
 	```
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Isopach/stackoverflow-fanatic)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Isopach/stackexchange-fanatic.git)
 
 That's it !
 
