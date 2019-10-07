@@ -7,7 +7,7 @@ phantom.injectJs('node_modules/casperjs/bin/bootstrap.js');
 
 var LOGIN_URLS = [
     'https://stackoverflow.com/users/login',
-    'https://meta.stackoverflow.com/users/4420129',
+    'https://meta.stackoverflow.com/users/login',
     'https://gaming.stackexchange.com/users/login/',
     'https://gaming.meta.stackexchange.com/users/100465',
     'https://japanese.stackexchange.com/users/login/',
@@ -17,7 +17,7 @@ var LOGIN_URLS = [
     'https://area51.stackexchange.com/users/login/',
     'https://chinese.stackexchange.com/users/login/',
     'https://chinese.meta.stackexchange.com/users/12131',
-    'https://webapps.stackexchange.com/users/login/',
+    'https://webapps.stackexchange.com/',
     'https://webapps.meta.stackexchange.com/users/107705',
     'https://meta.stackexchange.com/users/login/',
     'https://softwareengineering.stackexchange.com/users/login/',
