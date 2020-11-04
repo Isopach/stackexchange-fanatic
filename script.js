@@ -7,12 +7,12 @@ phantom.injectJs('node_modules/casperjs/bin/bootstrap.js');
 
 var LOGIN_URLS = [
     'https://meta.stackoverflow.com/users/login',
-    'https://gaming.stackexchange.com/q/362743/100465',
-    'https://gaming.meta.stackexchange.com/q/15393/100465',
-    'https://japanese.stackexchange.com/questions/29419/difference-between-%e3%83%93%e3%83%bc%e3%83%95-and-%e7%89%9b%e8%82%89/29421#29421',
-    'https://japanese.meta.stackexchange.com/q/2166/9861',
-    'https://security.stackexchange.com/questions/219320/leak-multiple-lines-from-file',
-    'https://security.meta.stackexchange.com/q/3399'
+    'https://gaming.stackexchange.com/users/login?ssrc=head&returnurl=https%3a%2f%2fgaming.stackexchange.com%2fquestions%2f362743%2forigin-of-the-term-ohko',
+    'https://gaming.stackexchange.com/users/login?ssrc=head&returnurl=https%3a%2f%2fgaming.meta.stackexchange.com%2fquestions%2f15393%2fscreenshot-of-the-week-contest-25',
+    'https://japanese.stackexchange.com/users/login?ssrc=head&returnurl=https%3a%2f%2fjapanese.stackexchange.com%2fquestions%2f29419%2fdifference-between-%25E3%2583%2593%25E3%2583%25BC%25E3%2583%2595-and-%25E7%2589%259B%25E8%2582%2589%2f29421',
+    'https://japanese.stackexchange.com/users/login?ssrc=head&returnurl=https%3a%2f%2fjapanese.meta.stackexchange.com%2fquestions%2f2166%2fetiquette-on-deleting-answers',
+    'https://security.stackexchange.com/users/login?ssrc=head&returnurl=https%3a%2f%2fsecurity.stackexchange.com%2fquestions%2f219320%2fleak-multiple-lines-from-file',
+    'https://security.stackexchange.com/users/login?ssrc=head&returnurl=https%3a%2f%2fsecurity.meta.stackexchange.com%2fquestions%2f3399%2fare-we-to-avoid-listing-specific-apps-malware'
     
 ];
 var start = +new Date();
