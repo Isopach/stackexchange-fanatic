@@ -7,12 +7,12 @@ phantom.injectJs('node_modules/casperjs/bin/bootstrap.js');
 
 var LOGIN_URLS = [
     'https://meta.stackoverflow.com/users/login',
-    'https://gaming.stackexchange.com/users/login/',
-    'https://gaming.meta.stackexchange.com/users/100465',
-    'https://japanese.stackexchange.com/users/login/',
-    'https://japanese.meta.stackexchange.com/users/9861',
-    'https://security.stackexchange.com/users/login/',
-    'https://security.meta.stackexchange.com/users/169503'
+    'https://gaming.stackexchange.com/q/362743/100465',
+    'https://gaming.meta.stackexchange.com/q/15393/100465',
+    'https://japanese.stackexchange.com/questions/29419/difference-between-%e3%83%93%e3%83%bc%e3%83%95-and-%e7%89%9b%e8%82%89/29421#29421',
+    'https://japanese.meta.stackexchange.com/q/2166/9861',
+    'https://security.stackexchange.com/questions/219320/leak-multiple-lines-from-file',
+    'https://security.meta.stackexchange.com/q/3399'
     
 ];
 var start = +new Date();
